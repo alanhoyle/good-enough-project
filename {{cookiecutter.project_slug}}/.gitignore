@@ -1,7 +1,37 @@
-# exclude compiled binaries and external models
+# compiled binaries and external models
 /bin
 
-# exclude data from source control by default
+# data from source control by default
 /data/temp
 /data/processed
 /data/raw
+
+# large and binary files
+*.gz
+*.zip
+*.tgz
+*.bam
+*.bai
+*.sam
+*.sai
+*.fastq
+*.fq
+*.fa
+*.fai
+
+# nextflow 
+.nextflow/
+.nextflow*
+
+# OS generated files 
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+*~
+\#*
+.\#*
+*.swp
