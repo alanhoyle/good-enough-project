@@ -8,8 +8,9 @@
 
 # large and binary files
 *.gz
-*.zip
+*.tar
 *.tgz
+*.zip
 *.bam
 *.bai
 *.sam
